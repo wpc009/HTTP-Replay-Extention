@@ -1,0 +1,14 @@
+{
+  "name": "HTTP Replay",
+  "version": "1.0",
+  "minimum_chrome_version": "10.0",
+  "description": "Extends the Developer Tools, can edit a HTTP request, including headers,post body, and send it",
+  "devtools_page": "httpreplay.html",
+  "background": { "scripts": ["background.js"] },
+  "permissions": [
+    "tabs",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "manifest_version": 2
+}
